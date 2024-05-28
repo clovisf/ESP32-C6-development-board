@@ -2553,6 +2553,12 @@
 		(uuid "812b7769-2bbf-416b-8ced-fa6357e381db")
 	)
 	(junction
+		(at 209.55 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81dae795-2a84-4273-bd46-4ef63d9e44a1")
+	)
+	(junction
 		(at 173.99 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2581,6 +2587,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b07c8f-9972-4e48-a678-4f2aee8bb2ba")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e96e838-a785-4c44-801c-d581bad96a3e")
 	)
 	(wire
 		(pts
@@ -2711,6 +2727,16 @@
 			(type default)
 		)
 		(uuid "51df49bf-d1e8-4c8e-ab66-ea1f19ba84d3")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55255d0c-8fdb-40fd-8fc9-58a6818bc7df")
 	)
 	(wire
 		(pts
@@ -2971,6 +2997,26 @@
 			(type default)
 		)
 		(uuid "e6421518-a8f1-4eae-9a72-15134072336f")
+	)
+	(wire
+		(pts
+			(xy 187.96 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74f9acc-33d2-43c6-8e3c-d2abe3cc6401")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bddcfa-d723-4643-a6fd-97496ea8db90")
 	)
 	(wire
 		(pts
@@ -3276,6 +3322,28 @@
 			)
 		)
 	)
+	(global_label "D4-SDA"
+		(shape input)
+		(at 168.91 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52c52fd4-4aae-48d2-8e9b-4c6043d867ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 92.2648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 147.32 86.36 0)
@@ -3426,6 +3494,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 220.98 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fa90fc6-d27f-413b-9d4f-792c2bccfca0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.2633 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3672,6 +3762,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 209.55 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d813f8a0-47a8-4103-af68-b26873d5c595")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 107.1857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 147.32 43.18 90)
@@ -3826,6 +3938,50 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 187.96 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2d9c464-d369-4b18-b1c5-7047ed3a2545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 117.3457 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 185.42 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f535d57a-628b-4829-8093-1a765d41768a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 89.9667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 180.34 67.31 90)
@@ -3845,6 +4001,76 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 168.91 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124b7197-f9ba-4108-8f5c-cd9852c9aa94")
+		(property "Reference" "J4"
+			(at 172.72 106.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 172.72 108.5849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3462bdec-f75e-40d7-8d10-68a99b60ee8c")
+		)
+		(pin "2"
+			(uuid "caf39ec6-7c88-4e9d-b61c-961ed9495ab4")
+		)
+		(instances
+			(project "ESP32C6-dev-board"
+				(path "/b69cd241-6253-40f3-959e-0996a65f5361"
+					(reference "J4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3991,7 +4217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 115.57 53.3399 0)
 			(effects
 				(font
@@ -4137,7 +4363,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 193.04 72.3899 0)
 			(effects
 				(font
@@ -4421,7 +4647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10u"
 			(at 105.41 52.4509 0)
 			(effects
 				(font
@@ -4491,7 +4717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 177.8 55.8799 0)
 			(effects
 				(font
@@ -4625,6 +4851,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 217.17 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab942c7b-2a25-4915-9f38-55c821c95c61")
+		(property "Reference" "R4"
+			(at 217.17 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 217.17 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b976c109-5b37-4622-93c6-9e5bde5f17f3")
+		)
+		(pin "1"
+			(uuid "93aa425f-1f8f-4016-a56e-9489fcf7c0fa")
+		)
+		(instances
+			(project "ESP32C6-dev-board"
+				(path "/b69cd241-6253-40f3-959e-0996a65f5361"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x15_Pin")
 		(at 52.07 95.25 0)
 		(unit 1)
@@ -4749,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 165.1 46.99 90)
 			(effects
 				(font
@@ -4801,6 +5095,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 209.55 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb20008-4d9f-466f-ae95-2c7cafdee17b")
+		(property "Reference" "C6"
+			(at 213.36 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.36 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.5152 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b324d5ee-afc1-4bab-9e2b-94445224e8fe")
+		)
+		(pin "2"
+			(uuid "f3c40942-3a91-4cfb-9251-0e081421781a")
+		)
+		(instances
+			(project "ESP32C6-dev-board"
+				(path "/b69cd241-6253-40f3-959e-0996a65f5361"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 59.69 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4818,7 +5182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 63.5 53.3399 0)
 			(effects
 				(font
@@ -4888,7 +5252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10u"
 			(at 71.12 52.4509 0)
 			(effects
 				(font
@@ -5005,6 +5369,74 @@
 			(project "ESP32C6-dev-board"
 				(path "/b69cd241-6253-40f3-959e-0996a65f5361"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3fa276d-521b-41a7-bd64-876ab0c26da2")
+		(property "Reference" "R3"
+			(at 176.53 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470	"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 176.53 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb18acc2-6ef1-47fd-a4a7-eb032adfaab5")
+		)
+		(pin "1"
+			(uuid "a892dc70-f6c5-447c-bc89-ef502423be3c")
+		)
+		(instances
+			(project "ESP32C6-dev-board"
+				(path "/b69cd241-6253-40f3-959e-0996a65f5361"
+					(reference "R3")
 					(unit 1)
 				)
 			)
