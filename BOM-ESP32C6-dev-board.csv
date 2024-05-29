@@ -1,0 +1,14 @@
+Id;Designador;Footprint;Quantidade;Designação;Fornecedor e referência
+3;C1,C2;CP_Elec_4x5.4;12;10u;https://www.ryndackcomponentes.com.br/capacitor-eletrolitico-smd-10-f-25v-105-c-10uf.html
+2;C3,C6,C5,C4;C_0805_2012Metric;25;100n;https://www.ryndackcomponentes.com.br/capacitor-ceramico-100nf-50v-smd-0805.html
+13;D1;LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm;7;WS2812;https://www.ryndackcomponentes.com.br/ws2812-led-rgb-enderecavel-smd-5050-6-pinos.html
+10;J1;PinHeader_1x15_P2.54mm_Vertical;4;Conn_01x15_Pin;https://www.ryndackcomponentes.com.br/barra-de-pinos-1x40-14-5mm-passo-2-54mm-90.html
+10;J1;PinHeader_1x15_P2.54mm_Horizontal;4;Conn_01x15_Pin;https://www.ryndackcomponentes.com.br/barra-de-pinos-1x40-11-2mm-passo-2-54mm-180.html
+1;J2,J4,J3;Jumper 2.54;20;Conn_01x02_Pin;https://www.ryndackcomponentes.com.br/jumper-com-aba-preto-2-54mm.html
+8;R1, R3;R_0805_2012Metric;2;470;Tenho em estoque
+6;R2;R_0805_2012Metric;1;10k;Tenho em estoque
+4;R4;R_0805_2012Metric;1;R;Tenho em estoque
+5;U1;Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM;1;Seeed Studio XIAO ESP32-C6;Tenho em estoque
+12;U2;SOT-223-3_TabPin2;7;AMS1117-3.3;https://www.ryndackcomponentes.com.br/ams1117-3-3-regulador-de-tens-o-3-3v-3v3-1a-sot223-lm1117-3-3.html
+9;U3;TO-92_Inline;7;LM35;https://www.ryndackcomponentes.com.br/lm35dz-sensor-de-temperatura-analogico.html
+7;U4;Aosong_DHT11_5.5x12.0_P2.54mm;1;DHT11;Tenho em estoque
